@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header{
+    background-image: url(img/star\ uó\ topo@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+}
+
+.title-header-star{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 130%;
+    position: relative;
+    left: 25%;
+}
+
+.title-header-wars{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 130%;
+    position: relative;
+    right: 10%;
+}
+
+.title{
+    height: 15%;
+    width: 120%;
+}
+
+.personagem-title{
+    background-image: url(img/Kylo-Ren-banner\ sem\ fundo@2x.png);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    width: 450%;
+    height: 113%;
+    display: flex;
+    position: relative;
+    right: 4%;
+    top: 7%;
+    z-index: 1;
+}
+
+.kylo{
+    display: flex;
+    width: 950px;
+    height: 800px;
+    position: relative;
+    right: 3%;
+}
+
+.text-header{
+    display: flex;
+    align-items: flex-end;
+    width: 30%;
+    position: relative;
+    right: 15%;
+    bottom: 10%;
+}
+
+.text-header-p{
+    color: #000000;
+}
+
+.text-header-p:hover{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.linha{
+    display: flex;
+    background-color: #000000;
+    height: 1px;
+    width: 40%;
+    position: relative;
+    top: 92%;
+    right: 20%;
+}
