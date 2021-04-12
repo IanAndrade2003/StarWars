@@ -76,7 +76,7 @@ header{
     font-weight: bold;
 }
 
-.linha{
+.line{
     display: flex;
     background-color: #000000;
     height: 1px;
