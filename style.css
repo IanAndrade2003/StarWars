@@ -37,7 +37,7 @@ header{
     width: 120%;
 }
 
-.personagem-title{
+.person-title{
     background-image: url(img/Kylo-Ren-banner\ sem\ fundo@2x.png);
     background-size: 105%;
     background-repeat: no-repeat;
@@ -84,4 +84,59 @@ header{
     position: relative;
     top: 92%;
     right: 20%;
+}
+
+main{
+    background-image: url(img/sta\ uo\ robot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    width: 45%;
+}
+
+.main-download{
+    display: flex;
+    background-image: url(img/strom\ trupe\ red.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    width: 40%;
+    height: 32%;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left: 40%;
+    bottom: 5%;
+    z-index: 1;
+}
+
+.title-main{
+    display: flex;
+    margin-top: 8%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.paragraph-main{
+    display: flex;
+    margin-top: 8%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 14px;
+    font-weight: 100;
+    width: 80%;
+}
+
+.download-button-main{
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    outline: none;
+    padding: 4%;
+    color: #ffffff;
+    font-size: 10px;
+    width: 45%;
+    margin-bottom: 15%;
 }
