@@ -86,11 +86,11 @@ header{
     right: 20%;
 }
 
-main{
+.main-background{
     background-image: url(img/sta\ uo\ robot.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1100px;
+    height: 1000px;
     width: 45%;
 }
 
@@ -139,4 +139,210 @@ main{
     font-size: 10px;
     width: 45%;
     margin-bottom: 15%;
+}
+
+.box-about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 45%;
+    position: relative;
+    left: 105%;
+    bottom: 21%;
+}
+
+.img-about{
+    display: flex;
+    position: relative;
+    width: 66%;
+    left: 155%;
+    bottom: 37%;
+    height: 16%;
+}
+
+.line-about{
+    display: flex;
+    background-color: #000000;
+    height: 2px;
+    width: 40%;
+    position: relative;
+}
+
+.title-about{
+    margin-bottom: 5%;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.paragraph-about{
+    margin-top: 5%;
+    font-size: 14px;
+    text-align: end;
+}
+
+.line-separate{
+    display: flex;
+    background-color: #000000;
+    height: 3px;
+    width: 164%;
+    position: relative;
+    left: 40%;
+    bottom: 30%;
+}
+
+.lord-sifh{   
+    background-image: url(img/lord\ sifh\ 2.png);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 63%;
+    display: flex;
+    position: relative;
+    bottom: 23%;
+    left: 37%;
+}
+
+.rey{
+    background-image: url(img/rey\ star\ wars.png);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    width: 44%;
+    height: 53%;
+    display: flex;
+    position: relative;
+    bottom: 126%;
+    left: 165%;
+}
+
+.list-game{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    list-style: none;
+    position: relative;
+    bottom: 82%;
+    left: 55%;
+}
+
+.title-list{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 4%;
+    width: 36%;
+    position: relative;
+    left: 65%;
+}
+
+.title-list:hover {
+    font-weight: bolder;
+}
+
+li{
+    margin-bottom: 8%;
+    list-style: none;
+}
+
+li:hover{
+    color: #ffffff;
+    background-color: orangered;
+    width: 50%;
+    position: relative;
+    left: 50%;
+}
+
+section{
+    background-color: #2d2d2d;
+    height: 100%;
+    width: 100%;
+}
+
+.atributes{
+    color: #ffffff;
+    display: flex;
+    width: 25%;
+    height: 140px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.container-box{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    flex-wrap: wrap;
+}
+
+.bigger-img{
+    display: flex;
+    width: 580px;
+    height: 400px;
+}
+
+.container-box-together{
+    display: flex;
+    width: 53%;
+    flex-wrap: wrap;
+}
+
+.images-together{
+    display: flex;
+    width: 327px;
+}
+
+.transparent{
+    display: flex;
+    background-color: #D74430;
+    opacity: 0.75;
+    width: 345px;
+    height: 215px;
+    position: relative;
+    z-index: 1;
+    bottom: 67%;
+    right: 1%;
+    flex-direction: column
+}
+
+.title-transparent{
+    width: 50%;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.paragraph-transparent{
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.button-transparent{
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+    outline: none;
+    padding: 4%;
+    color: #ffffff;
+    font-size: 14px;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 9%;
+}
+
+.rank{
+    width: 100%;
+    position: relative;
+    bottom: 20%;
+}
+
+.paragraph-rank{
+    display: flex;
+    position: relative;
+    bottom: 20%;
+    left: 50%;
+    width: 50%;
+    text-align: end;
+    color: #ffffff;
 }
