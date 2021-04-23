@@ -5,14 +5,15 @@
 }
 
 body{
-    height: 4306px;
+    height: 300vw;
 }
 
 header{
     background-image: url(img/star\ uó\ topo@2x.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 40vw;
+    width: 98vw;
     display: flex;
 }
 
@@ -20,59 +21,61 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
-    height: 130%;
+    width: 16vw;
+    height: 40vw;
     position: relative;
-    left: 25%;
+    top: 8vw;
+    left: 24vw;
 }
 
 .title-header-wars{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
-    height: 130%;
+    width: 16vw;
+    height: 40vw;
     position: relative;
-    right: 10%;
+    top: 8vw;
+    right: 8vw;
 }
 
 .title{
-    height: 15%;
-    width: 120%;
+    height: 6vw;
+    width: 16vw;
 }
 
 .person-title{
-    background-image: url(img/Kylo-Ren-banner\ sem\ fundo@2x.png);
-    background-size: 105%;
-    background-repeat: no-repeat;
-    width: 450%;
-    height: 113%;
+    width: 55vw;
+    height: 45vw;
     display: flex;
     position: relative;
-    right: 4%;
-    top: 7%;
+    justify-content: center;
+    right: 1vw;
+    top: 1vw;
     z-index: 1;
 }
 
-.kylo{
-    display: flex;
-    width: 950px;
-    height: 800px;
+.kylo-ren{
+    height: 42vw;
+    width: 55vw;
     position: relative;
-    right: 3%;
+    top: 5vw;
+    left: 1vw;
 }
 
 .text-header{
     display: flex;
     align-items: flex-end;
-    width: 30%;
+    width: 5vw;
+    height: 40vw;
     position: relative;
-    right: 15%;
-    bottom: 10%;
+    right: 15vw;
+    bottom: 4vw;
 }
 
 .text-header-p{
     color: #000000;
+    font-size: 1vw;
 }
 
 .text-header-p:hover{
@@ -84,18 +87,18 @@ header{
     display: flex;
     background-color: #000000;
     height: 1px;
-    width: 40%;
+    width: 39vw;
     position: relative;
-    top: 92%;
-    right: 20%;
+    top: 37vw;
+    right: 20vw;
 }
 
 .main-background{
     background-image: url(img/sta\ uo\ robot.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
-    width: 45%;
+    height: 70vw;
+    width: 44vw;
 }
 
 .main-download{
@@ -104,32 +107,33 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
-    width: 40%;
-    height: 32%;
+    width: 18vw;
+    height: 23vw;
     color: #ffffff;
     align-items: center;
     justify-content: space-around;
     position: relative;
-    left: 40%;
-    bottom: 5%;
+    left: 20vw;
+    bottom: 3vw;
     z-index: 1;
 }
 
 .title-main{
     display: flex;
-    margin-top: 8%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 1vw;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    font-size: 2vw;
 }
 
 .paragraph-main{
     display: flex;
-    margin-top: 8%;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: 14px;
+    margin-top: 1vw;
+    margin-left: 5vw;
+    margin-right: 4vw;
+    font-size: 1vw;
     font-weight: 100;
-    width: 80%;
+    width: 15vw;
 }
 
 .download-button-main{
@@ -138,49 +142,50 @@ header{
     border: 1px solid #ffffff;
     cursor: pointer;
     outline: none;
-    padding: 4%;
+    padding: 1vw;
     color: #ffffff;
-    font-size: 10px;
-    width: 45%;
-    margin-bottom: 15%;
+    font-size: 1vw;
+    width: 8vw;
+    margin-bottom: 3vw;
 }
 
 .box-about{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 45%;
+    width: 20vw;
+    height: 13vw;
     position: relative;
-    left: 105%;
-    bottom: 21%;
+    left: 46vw;
+    bottom: 15vw;
 }
 
 .img-about{
     display: flex;
     position: relative;
-    width: 66%;
-    left: 155%;
-    bottom: 37%;
-    height: 16%;
+    width: 19vw;
+    height: 13vw;
+    left: 68vw;
+    bottom: 28vw;
 }
 
 .line-about{
     display: flex;
     background-color: #000000;
     height: 2px;
-    width: 40%;
+    width: 9vw;
     position: relative;
 }
 
 .title-about{
     margin-bottom: 5%;
-    font-size: 16px;
+    font-size: 1vw;
     text-transform: uppercase;
 }
 
 .paragraph-about{
     margin-top: 5%;
-    font-size: 14px;
+    font-size: 1vw;
     text-align: end;
 }
 
@@ -188,7 +193,7 @@ header{
     display: flex;
     background-color: #000000;
     height: 3px;
-    width: 164%;
+    width: 70vw;
     position: relative;
     left: 40%;
     bottom: 30%;
@@ -198,24 +203,24 @@ header{
     background-image: url(img/lord\ sifh\ 2.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 63%;
+    width: 44vw;
+    height: 44vw;
     display: flex;
     position: relative;
-    bottom: 23%;
-    left: 37%;
+    bottom: 20vw;
+    left: 17vw;
 }
 
 .rey{
     background-image: url(img/rey\ star\ wars.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 44%;
-    height: 53%;
+    width: 20vw;
+    height: 38vw;
     display: flex;
     position: relative;
-    bottom: 126%;
-    left: 165%;
+    bottom: 90vw;
+    left: 74vw;
 }
 
 .list-game{
@@ -224,15 +229,15 @@ header{
     text-align: end;
     list-style: none;
     position: relative;
-    bottom: 82%;
-    left: 55%;
+    bottom: 59vw;
+    left: 24vw;
 }
 
 .title-list{
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 500;
     margin-bottom: 4%;
-    width: 36%;
+    width: 16vw;
     position: relative;
     left: 65%;
 }
@@ -242,80 +247,87 @@ header{
 }
 
 li{
-    margin-bottom: 8%;
+    margin-bottom: 3vw;
     list-style: none;
+    font-size: 1vw;
 }
 
 li:hover{
     color: #ffffff;
     background-color: orangered;
-    width: 50%;
+    width: 23vw;
     position: relative;
-    left: 50%;
+    left: 21vw;
 }
 
 section{
     background-color: #2d2d2d;
-    height: 1700px;
-    width: 100%;
+    background-size: cover;
 }
 
 .atributes{
     color: #ffffff;
     display: flex;
-    width: 25%;
-    height: 140px;
+    width: 25vw;
+    height: 10vw;
     justify-content: flex-end;
     align-items: flex-end;
+    font-size: 2vw;
 }
 
 .container-box{
     display: flex;
     margin-top: 4%;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 4vw;
+    margin-right: 4vw;
     flex-wrap: wrap;
+}
+
+.bigger-img-box{
+    display: flex;
+    width: 87vh;
+    height: 62vh;
 }
 
 .bigger-img{
     display: flex;
-    width: 580px;
-    height: 400px;
+    width: 87vh;
+    height: 62vh;
 }
 
 .container-box-together{
     display: flex;
-    width: 53%;
+    width: 100vh;
     flex-wrap: wrap;
 }
 
 .images-together{
     display: flex;
-    width: 327px;
+    width: 50vh;
 }
 
 .transparent{
     display: flex;
     background-color: #D74430;
     opacity: 0.75;
-    width: 345px;
-    height: 215px;
+    width: 25vw;
+    height: 16vw;
     position: relative;
     z-index: 1;
-    bottom: 67%;
+    bottom: 30vw;
     right: 1%;
     flex-direction: column
 }
 
 .title-transparent{
-    width: 50%;
+    width: 13vw;
     color: #ffffff;
     text-align: center;
     margin-top: 5%;
 }
 
 .paragraph-transparent{
-    width: 100%;
+    width: 25vw;
     color: #ffffff;
     text-align: center;
     margin-top: 5%;
@@ -327,39 +339,42 @@ section{
     border: 3px solid #ffffff;
     cursor: pointer;
     outline: none;
-    padding: 4%;
+    padding: 3%;
     color: #ffffff;
-    font-size: 14px;
-    width: 45%;
+    font-size: 1vw;
+    width: 12vw;
+    height: 3vw;
     margin-left: 5%;
     margin-top: 9%;
 }
 
 .rank{
-    width: 100%;
+    width: 91vw;
+    height: 49vw;
     position: relative;
-    bottom: 20%;
+    bottom: 10vw;
 }
 
 .paragraph-rank{
     display: flex;
     position: relative;
-    bottom: 20%;
-    left: 50%;
-    width: 50%;
+    bottom: 10vw;
+    left: 46vw;
+    width: 45vw;
     text-align: end;
     color: #ffffff;
 }
 
 .box-rank{
-    height: 750px;
+    height: 100vh;
 }
 
 .title-atributes{
     display: flex;
-    width: 100%;
+    width: 91vw;
     justify-content: center;
     color: #ffffff;
+    margin-bottom: 10vw;
 }
 
 footer{
@@ -368,11 +383,11 @@ footer{
 
 .how-play-person{
     display: flex;
-    width: 70%;
-    height: 90%;
+    width: 26vw;
+    height: 37vw;
     position: relative;
-    bottom: 45%;
-    left: 15%;
+    bottom: 18vw;
+    left: 3vw;
 
 }
 
@@ -380,187 +395,190 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 15vw;
+    width: 15vw;
+    margin-right: 4vw;
 }
 
 .title-download{
     display: flex;
     justify-content: center;
-    margin-bottom: 8%;
-    margin-top: 15%;
+    margin-bottom: 1vw;
+    margin-top: 2vw;
 }
 
 .paragraph-download{
     display: flex;
-    width: 62%;
+    width: 10vw;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 1vw;
 }
 
 .button-download-footer{
     display: flex;
     background: #000000;
     color: #ffffff;
-    width: 70%;
-    height: 20%;
+    width: 11vw;
+    height: 3vw;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8%;
+    margin-bottom: 1vw;
 }
 
 .line-download{
     background: #000000;
     height: 2px;
-    width: 75px;
+    width: 5vw;
     position: relative;
-    top: 190px;
-    right: 10%;
+    top: 14vw;
+    right: 14vw;
 }
 
 .box-escolher{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 15vw;
+    width: 15vw;
+    margin-right: 4vw;
 }
 
 .title-escolher{
     display: flex;
     justify-content: center;
-    margin-bottom: 8%;
-    margin-top: 15%;
+    margin-bottom: 1vw;
+    margin-top: 2vw;
 }
 
 .paragraph-escolher{
     display: flex;
-    width: 54%;
+    width: 6vw;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 1vw;
 }
 
 .button-escolher-footer{
     display: flex;
     background: #000000;
     color: #ffffff;
-    width: 70%;
-    height: 20%;
+    width: 11vw;
+    height: 3vw;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8%;
+    margin-bottom: 1vw;
 }
 
 .line-escolher{
     background: #000000;
     height: 2px;
-    width: 75px;
+    width: 5vw;
     position: relative;
-    top: 190px;
-    right: 10%;
+    top: 14vw;
+    right: 14vw;
 }
 
 .box-explorar{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 15vw;
+    width: 15vw;
 }
 
 .title-explorar{
     display: flex;
     justify-content: center;
-    margin-bottom: 8%;
-    margin-top: 15%;
+    margin-bottom: 1vw;
+    margin-top: 2vw;
 }
 
 .paragraph-explorar{
     display: flex;
-    width: 54%;
+    width: 9vw;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 1vw;
 }
 
 .button-explorar-footer{
     display: flex;
     background: #000000;
     color: #ffffff;
-    width: 70%;
-    height: 20%;
+    width: 11vw;
+    height: 3vw;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8%;
+    margin-bottom: 1vw;
 }
 
 .line-explorar{
     background: #000000;
     height: 2px;
-    width: 75px;
+    width: 5vw;
     position: relative;
-    top: 190px;
-    right: 10%;
+    top: 14vw;
+    right: 10vw;
 }
 
 .box-footer{ 
     background-color: #FF5A56;
-    width: 65%;
-    height: 600px;
+    width: 64vw;
+    height: 45vw;
     position: relative;
-    bottom: 150px;
+    bottom: 11vw;
 }
 
 .title-footer{
     display: flex;
     justify-content: center;
-    width: 55%;
-    height: 20%;
+    width: 35vw;
+    height: 9vw;
     color: #ffffff;
     align-items: center;
 }
 
 .paragraph-footer{
     display: flex;
-    width: 45%;
-    height: 10%;
-    margin-left: 19%;
+    width: 29vw;
+    height: 5vw;
+    margin-left: 12vw;
     color: #ffffff;
 }
 
 .img-footer-star-wars{
-    margin-left: 19%;
-    margin-top: 3%;
-    margin-bottom: 4%;
-    width: 25%;
+    margin-left: 12vw;
+    margin-top: 1%;
+    margin-bottom: 4vw;
+    width: 16vw;
+    margin-top: 3vw;
 }
 
 .img-footer-app-store{
-    margin-left: 2%;
+    margin-left: 1vw;
     margin-top: 1%;
-    margin-bottom: 6%;
-    width: 25%;
+    margin-bottom: 3vw;
+    width: 16vw;
 }
 
 .img-footer-google-play{
-    margin-left: 19%;
+    margin-left: 12vw;
     margin-top: 1%;
-    margin-bottom: 6%;
-    width: 25%;
+    margin-bottom: 3vw;
+    width: 16vw;
 }
 
 .out-line{
     height: 1%;
-    width: 53%;
+    width: 33vw;
     background-color: #D74430;
     position: relative;
-    left: 19%;
+    left: 12vw;
 }
 
 .darth-vader{
     display: flex;
-    width: 60%;
-    height: 100%;
-    position: relative;
-    bottom: 100%;
-    left: 83%;
+    width: 36vw;
+    height: 46vw;
+    position: absolute;
+    bottom: 1vw;
+    left: 54vw;
 }
