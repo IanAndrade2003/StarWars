@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 300vw;
+    height: 296vw;
 }
 
 header{
@@ -278,78 +278,49 @@ section{
 .container-box{
     display: flex;
     margin-top: 4%;
-    margin-left: 4vw;
-    margin-right: 4vw;
+    margin-left: 7vw;
     flex-wrap: wrap;
 }
 
 .bigger-img-box{
     display: flex;
-    width: 87vh;
-    height: 62vh;
+    width: 42vw;
+    height: 26vw;
+    margin-bottom: 15vw;
 }
 
 .bigger-img{
     display: flex;
-    width: 87vh;
-    height: 62vh;
+    width: 42vw;
+    height: 26vw;
+}
+
+.bigger-img:hover{
+    background-image: url(img/Grupo\ novos\ graficos.svg);
+    background-repeat: no-repeat;
+    background-size: 42vw;
 }
 
 .container-box-together{
     display: flex;
-    width: 100vh;
+    width: 42vw;
+    height: 26vw;
     flex-wrap: wrap;
 }
 
 .images-together{
     display: flex;
-    width: 50vh;
+    width: 21vw;
 }
 
-.transparent{
-    display: flex;
-    background-color: #D74430;
-    opacity: 0.75;
-    width: 25vw;
-    height: 16vw;
-    position: relative;
-    z-index: 1;
-    bottom: 30vw;
-    right: 1%;
-    flex-direction: column
-}
-
-.title-transparent{
-    width: 13vw;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 5%;
-}
-
-.paragraph-transparent{
-    width: 25vw;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 5%;
-}
-
-.button-transparent{
-    background-color: Transparent;
+.images-together:hover{
+    background-image: url(img/Grupo\ novos\ graficos.svg);
     background-repeat: no-repeat;
-    border: 3px solid #ffffff;
-    cursor: pointer;
-    outline: none;
-    padding: 3%;
-    color: #ffffff;
-    font-size: 1vw;
-    width: 12vw;
-    height: 3vw;
-    margin-left: 5%;
-    margin-top: 9%;
+    background-size: cover;
 }
 
 .rank{
-    width: 91vw;
+    width: 84vw;
     height: 49vw;
     position: relative;
     bottom: 10vw;
@@ -359,7 +330,7 @@ section{
     display: flex;
     position: relative;
     bottom: 10vw;
-    left: 46vw;
+    left: 39vw;
     width: 45vw;
     text-align: end;
     color: #ffffff;
@@ -581,4 +552,13 @@ footer{
     position: absolute;
     bottom: 1vw;
     left: 54vw;
+}
+
+.paragraph-layout{
+    display: flex;
+    width: 20vw;
+    position: relative;
+    left: 70vw;
+    bottom: 3vw;
+    font-size: 1vw;
 }
