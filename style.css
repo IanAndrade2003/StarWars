@@ -462,7 +462,7 @@ section{
     width: 84vw;
     height: 49vw;
     position: relative;
-    bottom: 10vw;
+    margin-top: 5vw;
 }
 
 @media(max-width:500px){
@@ -478,7 +478,6 @@ section{
 .paragraph-rank{
     display: flex;
     position: relative;
-    bottom: 10vw;
     left: 39vw;
     width: 45vw;
     text-align: end;
@@ -511,8 +510,10 @@ section{
 .title-atributes{
     display: flex;
     width: 91vw;
-    justify-content: center;
+    height: 15vw;
     color: #ffffff;
+    align-items: flex-end;
+    justify-content: center;
     margin-bottom: 10vw;
 }
 
@@ -523,6 +524,8 @@ section{
         height: 20vw;
         justify-content: flex-end;
         color: #ffffff;
+        position: relative;
+        bottom: 10vw;
     }
 }
 
@@ -834,7 +837,7 @@ footer{
 .box-footer{ 
     background-color: #FF5A56;
     width: 64vw;
-    height: 45vw;
+    height: 47vw;
     position: relative;
     bottom: 11vw;
 }
