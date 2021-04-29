@@ -13,7 +13,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     height: 40vw;
-    width: 98vw;
+    width: 100%;
     display: flex;
 }
 
@@ -633,6 +633,11 @@ footer{
     }
 }
 
+.button-download-footer:hover .line-download {
+    display: flex;
+    background-color: yellow;
+}
+
 .line-download{
     background: #000000;
     height: 2px;
@@ -885,7 +890,7 @@ footer{
         display: flex;
         justify-content: center;
         width: 70vw;
-        height: 20vw;
+        height: 30vw;
         color: #ffffff;
         align-items: center;
     }
@@ -976,7 +981,7 @@ footer{
         width: 80vw;
         height: 70vw;
         position: absolute;
-        top: 100vw;
+        top: 120vw;
         left: 8vw;
     }
 }
@@ -986,7 +991,7 @@ footer{
     width: 20vw;
     position: relative;
     left: 70vw;
-    bottom: 3vw;
+    bottom: 1vw;
     font-size: 1vw;
 }
 
