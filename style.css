@@ -4,6 +4,11 @@
     border: 0px;
 }
 
+@font-face {
+    font-family: "Sovereign";
+    src: url(fontes/Sovereign.ttf);
+}
+
 body{
     height: 281vw;
 }
@@ -334,6 +339,7 @@ header{
     width: 16vw;
     position: relative;
     left: 65%;
+    font-family: 'Sovereign';
 }
 
 .title-list:hover {
@@ -375,6 +381,7 @@ section{
     justify-content: flex-end;
     align-items: flex-end;
     font-size: 2vw;
+    font-family: 'Sovereign';
 }
 
 .container-box{
@@ -515,6 +522,7 @@ section{
     align-items: flex-end;
     justify-content: center;
     margin-bottom: 10vw;
+    font-family: 'Sovereign';
 }
 
 @media(max-width:500px){
@@ -631,11 +639,6 @@ footer{
         align-items: center;
         margin-bottom: 1vw;
     }
-}
-
-.button-download-footer:hover .line-download {
-    display: flex;
-    background-color: yellow;
 }
 
 .line-download{
@@ -864,6 +867,7 @@ footer{
     height: 9vw;
     color: #ffffff;
     align-items: center;
+    font-family: 'Sovereign';
 }
 
 @media(max-width:500px){
