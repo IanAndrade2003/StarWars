@@ -153,6 +153,16 @@ header{
     font-size: 2vw;
 }
 
+@media(max-width:500px){
+    .title-main{
+        display: flex;
+        margin-top: 1vw;
+        margin-left: 4vw;
+        margin-right: 2vw;
+        font-size: 3vw;
+    }
+}
+
 .paragraph-main{
     display: flex;
     margin-top: 1vw;
@@ -161,6 +171,18 @@ header{
     font-size: 1vw;
     font-weight: 100;
     width: 15vw;
+}
+
+@media(max-width:500px){
+    .paragraph-main{
+        display: flex;
+        margin-top: 1vw;
+        margin-left: 5vw;
+        margin-right: 4vw;
+        font-size: 2.4vw;
+        font-weight: 100;
+        width: 30vw;
+    }
 }
 
 .download-button-main{
@@ -174,6 +196,21 @@ header{
     font-size: 1vw;
     width: 8vw;
     margin-bottom: 3vw;
+}
+
+@media(max-width:500px){
+    .download-button-main{
+        background-color: Transparent;
+        background-repeat: no-repeat;
+        border: 1px solid #ffffff;
+        cursor: pointer;
+        outline: none;
+        padding: 1vw;
+        color: #ffffff;
+        font-size: 2vw;
+        width: 14vw;
+        margin-bottom: 3vw;
+    }
 }
 
 .box-about{
@@ -230,10 +267,27 @@ header{
     text-transform: uppercase;
 }
 
+@media(max-width:500px){
+    .title-about{
+        margin-bottom: 5%;
+        font-size: 2vw;
+        text-transform: uppercase;
+    }
+}
+
 .paragraph-about{
     margin-top: 5%;
     font-size: 1vw;
     text-align: end;
+}
+
+@media(max-width:500px){
+    .paragraph-about{
+        margin-top: 5%;
+        font-size: 2vw;
+        width: 60vw;
+        text-align: end;
+    }
 }
 
 .line-separate{
@@ -305,7 +359,7 @@ header{
         height: 38vw;
         display: flex;
         position: relative;
-        bottom: 86vw;
+        bottom: 90vw;
         left: 70vw;
     }
 }
@@ -328,7 +382,7 @@ header{
         list-style: none;
         position: relative;
         bottom: 59vw;
-        left: 15vw;
+        left: 20vw;
     }
 }
 
@@ -356,7 +410,7 @@ li{
     li{
         margin-bottom: 4vw;
         list-style: none;
-        font-size: 1vw;
+        font-size: 1.8vw;
     }
 }
 
@@ -609,7 +663,7 @@ footer{
 @media(max-width:500px){
     .paragraph-download{
         display: flex;
-        width: 25vw;
+        width: 30vw;
         text-align: center;
         margin-bottom: 1vw;
         font-size: 3vw;
